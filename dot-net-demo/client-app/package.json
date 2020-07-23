@@ -1,0 +1,30 @@
+{
+  "name": "clientapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.27.0",
+    "ts-vue-plugin": "^0.1.2",
+    "vue": "2.6.11",
+    "vue-class-component": "7.2.3",
+    "vue-property-decorator": "9.0.0",
+    "vuetify": "^2.3.4",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.4.6",
+    "@vue/cli-plugin-typescript": "4.4.6",
+    "@vue/cli-service": "4.4.6",
+    "typescript": "3.9.7",
+    "vue-template-compiler": "2.6.11"
+  }
+}
